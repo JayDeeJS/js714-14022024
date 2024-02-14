@@ -1,0 +1,29 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wrapper button {
+    margin-top: 30px;
+    width: 150px;
+    height: 70px;
+    background-color: lime;
+    color: black;
+    font-weight: 700;
+    border: none;
+}
+
+.wrapper button:hover {
+    cursor: pointer;
+}
+
+.wrapper .flex {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
